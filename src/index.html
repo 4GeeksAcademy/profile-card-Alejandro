@@ -17,121 +17,125 @@
 
   <body>
     <div class="container mt-5">
-      <div class="row">
-        <div class="col-md-6">
-          <div class="row">
-            <div class="col-md-6 mb-3">
-              <select class="form-control picker" for="includeCover">
-                <option selected disabled>Include Cover</option>
-                <option value="true">True</option>
-                <option value="false">False</option>
-              </select>
+      <form action="#" method="get">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <select class="form-control picker" for="includeCover">
+                  <option selected disabled>Include Cover</option>
+                  <option value="true">True</option>
+                  <option value="false">False</option>
+                </select>
+              </div>
+
+              <div class="col-md-6 mb-3">
+                <input
+                  class="form-control picker"
+                  for="name"
+                  type="text"
+                  placeholder="Name"
+                />
+              </div>
             </div>
 
-            <div class="col-md-6 mb-3">
-              <input
-                class="form-control picker"
-                for="name"
-                type="text"
-                placeholder="Name"
-              />
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <input
+                  class="form-control picker"
+                  for="lastName"
+                  type="text"
+                  placeholder="Last Name"
+                />
+              </div>
+
+              <div class="col-md-6 mb-3">
+                <select class="form-control picker" for="socialMediaPosition">
+                  <option value="position-left">S.M. Position: Left</option>
+                  <option value="position-right">S.M. Position: Right</option>
+                </select>
+              </div>
             </div>
+
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <input
+                  class="form-control picker"
+                  for="twitter"
+                  type="text"
+                  placeholder="User Twitter"
+                />
+              </div>
+
+              <div class="col-md-6 mb-3">
+                <input
+                  class="form-control picker"
+                  for="github"
+                  type="text"
+                  placeholder="User Github"
+                />
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <input
+                  class="form-control picker"
+                  for="linkedin"
+                  type="text"
+                  placeholder="User LinkedIn"
+                />
+              </div>
+
+              <div class="col-md-6 mb-3">
+                <input
+                  class="form-control picker"
+                  for="instagram"
+                  type="text"
+                  placeholder="User Instagram"
+                />
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-4 mb-3">
+                <select class="form-control picker" for="role">
+                  <option disabled selected>Role</option>
+                  <option value="Web Developer">Web Developer</option>
+                  <option value="Floor Planner">Floor Planner</option>
+                  <option value="Technical Writter">Technical Writter</option>
+                </select>
+              </div>
+
+              <div class="col-md-4 mb-3">
+                <select class="form-control picker" for="city">
+                  <option disabled selected>City</option>
+                  <option value="Miami">Miami</option>
+                  <option value="Munich">Munich</option>
+                  <option value="Caracas">Caracas</option>
+                  <option value="Toronto">Toronto</option>
+                </select>
+              </div>
+
+              <div class="col-md-4 mb-3">
+                <select class="form-control picker" for="country">
+                  <option disabled selected>Country</option>
+                  <option value="USA">USA</option>
+                  <option value="Germany">Germany</option>
+                  <option value="Canada">Canada</option>
+                  <option value="Venezuela">Venezuela</option>
+                </select>
+              </div>
+            </div>
+
+            <input type="reset" value="Reset" class="btn btn-danger" />
           </div>
 
-          <div class="row">
-            <div class="col-md-6 mb-3">
-              <input
-                class="form-control picker"
-                for="lastName"
-                type="text"
-                placeholder="Last Name"
-              />
-            </div>
-
-            <div class="col-md-6 mb-3">
-              <select class="form-control picker" for="socialMediaPosition">
-                <option value="position-left">S.M. Position: Left</option>
-                <option value="position-right">S.M. Position: Right</option>
-              </select>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-md-6 mb-3">
-              <input
-                class="form-control picker"
-                for="twitter"
-                type="text"
-                placeholder="User Twitter"
-              />
-            </div>
-
-            <div class="col-md-6 mb-3">
-              <input
-                class="form-control picker"
-                for="github"
-                type="text"
-                placeholder="User Github"
-              />
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-md-6 mb-3">
-              <input
-                class="form-control picker"
-                for="linkedin"
-                type="text"
-                placeholder="User LinkedIn"
-              />
-            </div>
-
-            <div class="col-md-6 mb-3">
-              <input
-                class="form-control picker"
-                for="instagram"
-                type="text"
-                placeholder="User Instagram"
-              />
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-md-4 mb-3">
-              <select class="form-control picker" for="role">
-                <option disabled selected>Role</option>
-                <option value="Web Developer">Web Developer</option>
-                <option value="Floor Planner">Floor Planner</option>
-                <option value="Technical Writter">Technical Writter</option>
-              </select>
-            </div>
-
-            <div class="col-md-4 mb-3">
-              <select class="form-control picker" for="city">
-                <option disabled selected>City</option>
-                <option value="Miami">Miami</option>
-                <option value="Munich">Munich</option>
-                <option value="Caracas">Caracas</option>
-                <option value="Toronto">Toronto</option>
-              </select>
-            </div>
-
-            <div class="col-md-4 mb-3">
-              <select class="form-control picker" for="country">
-                <option disabled selected>Country</option>
-                <option value="USA">USA</option>
-                <option value="Germany">Germany</option>
-                <option value="Canada">Canada</option>
-                <option value="Venezuela">Venezuela</option>
-              </select>
-            </div>
+          <div class="col-md-6">
+            <div id="widget_content" class="border p-4"></div>
           </div>
         </div>
-
-        <div class="col-md-6">
-          <div id="widget_content" class="border p-4"></div>
-        </div>
-      </div>
+      </form>
     </div>
 
     <script
